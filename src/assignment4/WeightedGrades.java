@@ -1,8 +1,8 @@
-package assignment3;
+package assignment4;
 
 import java.util.Scanner;
 
-public class WeightedGrades3 {
+public class WeightedGrades {
 
     // Declare 4 private attributes
     private double[] pointTotal = {20, 30, 40, 50, 60, 100, 200, 300};
@@ -11,7 +11,7 @@ public class WeightedGrades3 {
     private double grades = 0;
 
     // This is the constructor function:
-    public WeightedGrades3 ()
+    public WeightedGrades ()
     {
     }
 

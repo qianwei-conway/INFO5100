@@ -1,4 +1,4 @@
-package assignment3;
+package assignment4;
 
 import java.util.Scanner;
 
@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
 
         // Initiate an instance of class WeightedGrades
-        WeightedGrades3 weightedgrades;
-        weightedgrades = new WeightedGrades3();
+        WeightedGrades weightedgrades;
+        weightedgrades = new WeightedGrades();
 
         // Ask for inputs, the user should input 8 times.
         // And the total points for each assignment are showed on the screen.
