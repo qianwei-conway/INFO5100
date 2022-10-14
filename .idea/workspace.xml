@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c785e23e-e7fb-4ae5-b57e-daeca1eab617" name="Changes" comment="The 1st, 2nd, 3rd assignment of INFO5100.">
+    <list default="true" id="c785e23e-e7fb-4ae5-b57e-daeca1eab617" name="Changes" comment="The 4th assignment of INFO5100.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment4/WeightedGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/WeightedGrades.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,8 @@
       <workItem from="1665166161795" duration="964000" />
       <workItem from="1665169922105" duration="563000" />
       <workItem from="1665707142676" duration="602000" />
-      <workItem from="1665772253272" duration="5059000" />
+      <workItem from="1665772253272" duration="5518000" />
+      <workItem from="1665785936142" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="The 1st, 2nd, 3rd assignment of INFO5100.">
       <created>1665707293278</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665707293278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="The 4th assignment of INFO5100.">
+      <created>1665777457299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665777457299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The 1st, 2nd, 3rd assignment of INFO5100." />
-    <option name="LAST_COMMIT_MESSAGE" value="The 1st, 2nd, 3rd assignment of INFO5100." />
+    <MESSAGE value="The 4th assignment of INFO5100." />
+    <option name="LAST_COMMIT_MESSAGE" value="The 4th assignment of INFO5100." />
   </component>
 </project>
