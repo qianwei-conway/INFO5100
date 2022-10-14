@@ -1,13 +1,13 @@
 package assignment4;
 
-import java.util.Scanner;
+import java.util.LinkedList;
 
 public class WeightedGrades {
 
     // Declare 4 private attributes
-    private double[] pointTotal = {20, 30, 40, 50, 60, 100, 200, 300};
-    private double[] earnedPoints = new double[8];
-    private double[] assignmentPercentage = {10, 10, 10, 10, 10, 10, 15, 25};
+    private LinkedList<Double> pointTotal = new LinkedList<>();
+    private LinkedList<Double> earnedPoints = new LinkedList<>();
+    private LinkedList<Double> assignmentPercentage = new LinkedList<>();
     private double grades = 0;
 
     // This is the constructor function:
@@ -15,21 +15,26 @@ public class WeightedGrades {
     {
     }
 
-    // In order to get the total point in Main function:
-    public double getPointTotal(int i) {
-        return pointTotal[i];
+    // The function aiming at get input of TOTAL POINTS of each assignment:
+    public void setPointTotal(double pointTotal) {
+        this.pointTotal.add(pointTotal);
     }
 
-    // The function aiming at get input of earned points
-    public void setEarnedPoint(double earnedPoints, int i) {
-        this.earnedPoints[i] = earnedPoints;
+    // The function aiming at get input of EARNED POINTS of each assignment:
+    public void setEarnedPoint(double earnedPoints) {
+        this.earnedPoints.add(earnedPoints);
+    }
+
+    // The function aiming at get input of PERCENTAGE of each assignment:
+    public void setPercentage(double percentage) {
+        assignmentPercentage.add(percentage);
     }
 
     // Calculate the final grades:
     public double calcGrades()
     {
-        for (int i = 0; i < 8; i++) {
-            grades += earnedPoints[i] / pointTotal[i] * assignmentPercentage[i];
+        for (int size = pointTotal.size(), i = 0; i < size; i++) {
+            grades += earnedPoints.get(i) / pointTotal.get(i) * assignmentPercentage.get(i);
         }
         return grades;
     }

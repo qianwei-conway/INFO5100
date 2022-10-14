@@ -9,18 +9,39 @@ public class Main {
         WeightedGrades weightedgrades;
         weightedgrades = new WeightedGrades();
 
-        // Ask for inputs, the user should input 8 times.
-        // And the total points for each assignment are showed on the screen.
+        // Ask for inputs, the user should KEEP INPUTTING total points, earned points, percentage until -1 has been input.
+        // And the total points, the remainder of percentage for each assignment are showed on the screen.
         Scanner input = new Scanner(System.in);
 
-        for (int i = 0; i < 8; i++) {
-            StringBuilder sb = new StringBuilder("Please input the scores of assignment ");
-            sb.append(i+1);
-            sb.append(" (total: ");
-            sb.append(String.format("%.0f", weightedgrades.getPointTotal(i)));
-            sb.append(")");
+        // remainingPercentage is created in order to tell user how much percentage is left
+        int remainingPercentage = 100;
+
+        System.out.println("Please separate the variables WITH SPACES, and enter -1 at the end...");
+        while(true) {
+            StringBuilder sb = new StringBuilder("Please input the [Total Points, Earned Points, Percentage] without brackets");
+            sb.append(" ( remaining percentage: ");
+            sb.append(remainingPercentage);
+            sb.append("% ):");
             System.out.println(sb);
-            weightedgrades.setEarnedPoint(input.nextDouble(), i);
+
+            String line = input.nextLine();
+
+            // Check if user enters a -1, if true then break the loop, else continue
+            // IMPORTANT: DO NOT USE == TO CHECK BECAUSE == ONLY CHECKS ADDRESS, EQUALS() IS THE RIGHT WAY TO CHECK THE CONTENT OF STRINGS!!!
+            if(line.equals("-1")) {
+                break;
+            }
+
+            // Split the string with one or more spaces:
+            String[] vars = line.split("\\s+");
+
+            // Add the inputs into three LinkedLists separately.
+            weightedgrades.setPointTotal(Double.parseDouble(vars[0]));
+            weightedgrades.setEarnedPoint(Double.parseDouble(vars[1]));
+            weightedgrades.setPercentage(Double.parseDouble(vars[2]));
+
+            // Update remainder of percentage
+            remainingPercentage -= Double.parseDouble(vars[2]);
         }
 
         // Count the final grades
