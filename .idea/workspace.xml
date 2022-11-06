@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c785e23e-e7fb-4ae5-b57e-daeca1eab617" name="Changes" comment="The 4th assignment of INFO5100.">
-      <change afterPath="$PROJECT_DIR$/src/assignment6/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment6/WeightedGrades.java" afterDir="false" />
+    <list default="true" id="c785e23e-e7fb-4ae5-b57e-daeca1eab617" name="Changes" comment="The 6th assignment of INFO5100.">
+      <change afterPath="$PROJECT_DIR$/src/assignment7/FileWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment7/GUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment7/annual.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment7/produce.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture7/FileOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture7/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture7/WriteFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment4/WeightedGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/WeightedGrades.java" afterDir="false" />
     </list>
@@ -45,9 +50,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/a123/Desktop/22Fall_INFO5100/INFO5101/INFO5100/src/assignment7&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,7 +62,25 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assignment7" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.assignment7.Main">
+    <configuration name="FileOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture7.FileOutput" />
+      <module name="INFO5100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="assignment6.Main" />
       <module name="INFO5100" />
@@ -69,9 +94,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture7.ReadFile" />
+      <module name="INFO5100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture7.WriteFile" />
+      <module name="INFO5100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="assignment2.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment2.Main" />
+      <module name="INFO5100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="assignment7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment7.Main" />
+      <module name="INFO5100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.assignment7.Main" />
+        <item itemvalue="Application.FileOutput" />
+        <item itemvalue="Application.WriteFile" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ReadFile" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +172,10 @@
       <workItem from="1666378427673" duration="4964000" />
       <workItem from="1666590274527" duration="7654000" />
       <workItem from="1666599140574" duration="10000" />
-      <workItem from="1666975255905" duration="1680000" />
+      <workItem from="1666975255905" duration="3819000" />
+      <workItem from="1667365648797" duration="319000" />
+      <workItem from="1667411302278" duration="4071000" />
+      <workItem from="1667579580840" duration="14259000" />
     </task>
     <task id="LOCAL-00001" summary="The 1st, 2nd, 3rd assignment of INFO5100.">
       <created>1665707293278</created>
@@ -114,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665786479671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="The 6th assignment of INFO5100.">
+      <created>1666977204294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666977204294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,8 +223,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="The 1st, 2nd, 3rd assignment of INFO5100." />
     <MESSAGE value="The 4th assignment of INFO5100." />
-    <option name="LAST_COMMIT_MESSAGE" value="The 4th assignment of INFO5100." />
+    <MESSAGE value="The 6th assignment of INFO5100." />
+    <option name="LAST_COMMIT_MESSAGE" value="The 6th assignment of INFO5100." />
   </component>
 </project>

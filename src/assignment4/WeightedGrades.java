@@ -35,9 +35,7 @@ public class WeightedGrades {
     }
 
     // The function aiming at getting TOTAL POINTS of each assignment:
-    public double getPointTotal(int i) {
-        return pointTotal.get(i);
-    }
+    public double getPointTotal(int i) { return pointTotal.get(i); }
 
     // The function aiming at getting EARNED POINTS of each assignment:
     public double getEarnedPoint(int i) {
